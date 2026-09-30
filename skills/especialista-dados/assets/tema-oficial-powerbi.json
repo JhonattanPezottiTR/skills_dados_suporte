@@ -1,0 +1,43 @@
+{
+  "name": "Custom",
+  "dataColors": ["#D64000", "#123015", "#7A7A7A", "#9F9F9F", "#E5E5E5", "#E9B045", "#D4792A", "#4DB299"],
+  "bad": "#DC0A0A",
+  "neutral": "#8FCB64",
+  "good": "#123015",
+  "minimum": "#DC0A0A",
+  "center": "#A00000",
+  "maximum": "#6E3AB7",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "visualTooltip": [
+          {
+            "titleFontColor": { "solid": { "color": "#FFFFFF" } },
+            "valueFontColor": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "filterCard": [
+          { "$id": "Applied", "backgroundColor": { "solid": { "color": "#FFFFFF" } }, "transparency": 0, "textSize": 8 },
+          { "$id": "Available", "textSize": 8 }
+        ],
+        "outspacePane": [{ "titleSize": 10, "headerSize": 8 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "transparency": 100 }]
+      }
+    }
+  },
+  "textClasses": {
+    "label":   { "fontFace": "Clario", "color": "#404040", "fontSize": 10 },
+    "callout": { "fontFace": "Clario", "color": "#404040", "fontSize": 30 },
+    "title":   { "fontFace": "Clario", "color": "#404040", "fontSize": 10 },
+    "header":  { "fontFace": "Clario", "color": "#404040", "fontSize": 10 }
+  },
+  "foreground": "#404040",
+  "foregroundNeutralSecondary": "#666555",
+  "backgroundLight": "#666666",
+  "foregroundNeutralTertiary": "#AFAFAF",
+  "backgroundNeutral": "#D0D0D0"
+}

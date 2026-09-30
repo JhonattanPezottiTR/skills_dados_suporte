@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "especialista-dados": {
+      "command": "python",
+      "args": ["scripts/mcp_server.py"]
+    }
+  }
+}

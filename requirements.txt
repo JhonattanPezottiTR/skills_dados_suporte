@@ -1,0 +1,2 @@
+# Dependência do servidor MCP (scripts/mcp_server.py) que expõe skills/especialista-dados/ para o Open Arena.
+mcp>=1.0
