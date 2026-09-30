@@ -1,0 +1,4 @@
+# Arquivos de references/ que NÃO vão para o pacote do Open Arena (nome achatado, um por linha).
+# Motivo: tamanho (o Open Arena recebe a versão resumida) ou dado sensível (e-mails/ids fixos no DAX).
+# Continuam disponíveis para o Claude Code neste repositório.
+powerbi-catalogo-pbix.md
